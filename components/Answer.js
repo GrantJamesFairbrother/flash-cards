@@ -16,7 +16,6 @@ const Answer = props => {
     nextQuestion,
     correctAnswer
   } = deckContext;
-  console.log('resultTotal: ', resultTotal);
 
   const title = props.navigation.state.params.deckTitle;
   const questions = decks[title].questions;

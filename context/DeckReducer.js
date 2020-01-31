@@ -1,4 +1,5 @@
 import {
+  //GET_DECKS,
   ADD_CARD,
   ADD_NEW_DECK,
   DELETE_DECK,
@@ -9,6 +10,11 @@ import {
 
 export default (state, action) => {
   switch (action.type) {
+    // case GET_DECKS:
+    //   return {
+    //     ...state,
+    //     decks: action.payload
+    //   };
     case ADD_CARD:
       return {
         ...state,

@@ -8,10 +8,10 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@react-native-community/async-storage": "^1.7.1",
     "@react-native-community/masked-view": "0.1.5",
     "expo": "~36.0.0",
     "expo-constants": "^8.0.0",
+    "expo-permissions": "^8.0.0",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
     "react-hook-form": "^4.7.1",
@@ -21,6 +21,7 @@
     "react-native-reanimated": "~1.4.0",
     "react-native-safe-area-context": "0.6.0",
     "react-native-web": "~0.11.7",
+    "react-native-webview": "^8.0.6",
     "react-navigation": "^4.0.10",
     "react-navigation-stack": "^2.0.16",
     "react-navigation-tabs": "^2.7.0"

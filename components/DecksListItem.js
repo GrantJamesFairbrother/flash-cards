@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { Animated, Text, StyleSheet, TouchableOpacity } from 'react-native';
 
-const DecksListItem = ({ deck, navigation }) => {
-  const { navigate } = navigation;
+const DecksListItem = props => {
+  const { navigate } = props.navigation;
+  const deck = props.deck.item;
 
   const [bounceValue, setBounceValue] = useState(new Animated.Value(1));
 
